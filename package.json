@@ -1,0 +1,36 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "3 Modes:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "trianglify": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "browser-sync": "^2.14.0",
+    "css-loader": "^0.23.1",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "gulp-util": "^3.0.7",
+    "html-webpack-plugin": "^2.22.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.2.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-spec-reporter": "0.0.26",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dashboard": "^0.1.6",
+    "webpack-stream": "^3.2.0"
+  }
+}
