@@ -9,7 +9,7 @@ var webpackConfig = require('./webpack.config.js');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 
-gulp.task('server', ['webpack:build-dev', 'html-templates'], function() {
+gulp.task('server', ['webpack:build-dev', 'html-templates', 'copy-assets'], function() {
 	browserSync.init({
 		server: {
 			baseDir: './dist'
@@ -46,6 +46,11 @@ gulp.task('js-lint', function() {
 gulp.task('html-templates', function() {
 	return gulp.src(['./src/index.html'])
 		.pipe(gulp.dest('dist/'));
+});
+
+gulp.task('copy-assets', function() {
+	return gulp.src('./src/assets/**/*')
+		.pipe(gulp.dest('dist/assets'));
 });
 
 gulp.task('test', shell.task([

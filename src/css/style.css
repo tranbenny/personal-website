@@ -1,0 +1,115 @@
+/* GLOBAL STYLES, FONT IMPORTS
+------------------------------------------------------------ */ 
+/*
+@font-face {
+	font-family: Abel;
+	src: url('../assets/Abel/Abel-Regular.ttf');
+}*/
+
+html {
+	padding: 0;
+	margin: 0 auto;
+	/* font-family: */
+}
+
+div {
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+button {
+	font-family: 'Abel', sans-serif;
+	background-color: transparent;
+	border: 1px solid white;
+	padding: 10px 30px 10px 30px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+button:hover {
+	/* add animation here */
+	text-decoration: underline;
+	border: 2px solid white;
+}
+
+
+/* MAIN PAGE SECTION STYLES 
+------------------------------------------------------------ */ 
+
+.main-section {
+	color: white;
+	background-color: black;
+	height: 475px;
+	width: 100%;
+	text-align: center;
+}
+
+.main-section div.container-fluid {
+	padding-top: 100px;
+	height: 100%;
+}
+
+
+.main-section h1 {
+	font-size: 100px;
+	font-weight: lighter;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.main-section p.lead {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* MAIN PAGE FOOTER STYLES 
+------------------------------------------------------------ */ 
+
+footer {
+	padding-top: 30px;
+	text-align: center;
+}
+
+footer li {
+	margin-bottom: 10px;
+}
+
+footer p {
+	display: inline;
+	margin-left: 5px;
+}
+
+.contact-icons * {
+	height: 100%;
+	margin-bottom: 10px;
+}
+
+.contact-icons *:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.contact-icons i {
+	padding-right: 0px;
+}
+
+.contact-icons p {
+	font-family: 'Abel', sans-serif;
+	height: 28px;
+	margin-left: 0px;
+	padding-top: 5px;
+	text-align: left;
+}
+
+.contact-icons p:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+

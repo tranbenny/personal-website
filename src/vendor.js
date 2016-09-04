@@ -1,3 +1,5 @@
+require('./css/style.css');
+require('./css/home.css');
 
-import react from 'react';
-import reactDOM from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
