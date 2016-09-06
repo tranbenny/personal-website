@@ -1,0 +1,76 @@
+/* NAVIGATION BAR STYLES
+-----------------------------------------------------*/
+nav button {
+	margin-bottom: 0px;
+}
+
+/* negate default button behavior from style.css */
+nav button:hover {
+	text-decoration: none;
+	border: none;
+	opacity: 0.5;
+}
+
+
+.next-btn {
+	border: none;
+	position: fixed;
+	color: white;
+	z-index: 100;
+	bottom: 0px;
+	left: 50%;
+}
+
+.next-btn:hover {
+	border: none;
+	opacity: 0.5;
+}
+
+
+/* PROJECT CONTENT STYLES
+-----------------------------------------------------*/
+.project-container {
+	overflow: hidden;
+}
+
+.project div.col-md-8 {
+	background-color: black;
+	color: white;
+	z-index: 0;
+}
+
+.project div.col-md-8 h1 {
+	padding-left: 10%;
+	margin-top: 5%;
+	font-size: 70px;
+	display: inline-block;
+}
+
+.project div.col-md-4 {
+	margin-left: -20%;
+	padding-top: 8%;
+}
+
+.project div.col-md-4 img {
+	z-index: 10;
+}
+
+
+.project-content {
+	padding-top: 5%;
+	padding-left: 10%;
+	width: 60%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
