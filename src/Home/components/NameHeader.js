@@ -8,18 +8,24 @@ class NameHeader extends React.Component {
 
 	render() {
 		return (
-			<div id="nameHeader">
-				<h1 id="name">Benny Tran</h1>
-				<div className="col-md-8">
-					<ul id="view-list">
-						<li><a><Link to="/">Web Page</Link></a></li>
-						<li><a>Terminal</a></li>
-						<li><a>Data Visual</a></li>
-						<li><a>AI Assistant</a></li>
+			<div className="main-section" id="particles-js">
+				<div className="container-fluid">
+					<h1>Benny Tran</h1>
+					<p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet tortor et luctus congue. Curabitur.</p>
+					<ul>
+						<li className="offset-md-3 col-md-3"><button><Link to='/projects'>Projects</Link></button></li>
+						<li className="col-md-3"><button><Link to='/resume'>Resume</Link></button></li>
 					</ul>
 				</div>
 			</div>
 		);
+	}
+
+	componentDidMount() {
+		// REMOVE LOG STATEMENT IN FINAL APP
+		particlesJS.load('particles-js', './assets/particles.json', function() {
+  			console.log('callback - particles.js config loaded');
+		});
 	}
 
 }
