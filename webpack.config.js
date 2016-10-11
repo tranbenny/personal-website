@@ -23,7 +23,7 @@ var config = {
 	plugins: [
 		// new webpack.ProvidePlugin({}),
 		new CommonsPlugin({
-			name: 'common.js',
+			name: 'common',
 			minChunks: Infinity
 		}),
 		new HtmlWebpackPlugin({
