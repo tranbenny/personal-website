@@ -8,6 +8,26 @@
 	}
 }
 
+@media screen and (max-width: 500px) {
+  .main-section {
+    height: 100%;
+  }
+
+  .main-section p.lead {
+    width: 100%;
+  }
+
+  .main-section h1.name-header {
+    display: none;
+  }
+
+  .main-section div.mobile-name-header {
+    display: inline-block;
+    height: auto;
+  }
+
+}
+
 
 /* IPhone 6 Portrait and Landscape */
 @media only screen 
@@ -15,11 +35,4 @@
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 
-  	.main-section {
-  		height: 60%;
-  	}
-
-  	.main-section {
-  		padding-top: 250px;
-  	}
 }

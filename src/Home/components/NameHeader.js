@@ -11,7 +11,11 @@ class NameHeader extends React.Component {
 		return (
 			<div className="main-section" id="particles-js">
 				<div className="container-fluid">
-					<h1>Hi I'm <span className="blue">Benny Tran</span></h1>
+					<h1 className="name-header">Hi I'm <span className="blue">Benny Tran</span></h1>
+					<div className="mobile-name-header">
+						<h1>Hi I'm</h1>
+						<h1 className="blue">Benny Tran</h1>
+					</div>
 					<p className="lead">
 						A full-stack software developer with experience in web development and scientific computing. 
 					</p>
@@ -39,13 +43,12 @@ class NameHeader extends React.Component {
 				window.location.href = url;
 			});
 		});
-		/* 
+		
 		particlesJS.load('particles-js', './assets/particles.json', function() {
 			$('#particles-js').css({
 				'background-image':'none'
 			});
 		});
-		*/
 		
 		
 		

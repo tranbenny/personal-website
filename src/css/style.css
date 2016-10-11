@@ -73,6 +73,9 @@ a:hover {
 	z-index: 100;
 }
 
+.main-section div.mobile-name-header {
+	display: none;
+}
 
 .main-section h1 {
 	font-size: 3rem;
