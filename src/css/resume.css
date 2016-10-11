@@ -22,18 +22,27 @@
 }
 
 .resume-content div.col-md-3 {
+	position: fixed;
+	width: 30%;
+	height: 100%;
 	padding: 0px;
 	background-color: black;
 }
 
 .resume-content div.col-md-3 canvas {
-	position: absolute;
+	position: fixed;
+	width: 30%;
+	height: 100%;
 }
 
 .resume-content div.col-md-9 {
 	padding: 20px;
 	padding-left: 40px;
 	margin-bottom: 20px;
+}
+
+.resume-content div.col-md-9:nth-child(1) {
+	margin-left: 35%;
 }
 
 .resume-content i {

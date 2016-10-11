@@ -11,12 +11,16 @@ class Footer extends React.Component {
 							<p className="col-md-9">Based in Seattle, WA</p>
 						</div>
 						<div>
-							<i className="fa fa-github fa-2x col-md-2" aria-hidden="true"></i>
-							<p className="col-md-9">https://github.com/tranbenny</p>
+							<a href="https://github.com/tranbenny">
+								<i className="fa fa-github fa-2x col-md-2" aria-hidden="true"></i>
+								<p className="col-md-9">tranbenny</p>
+							</a>
 						</div>
 						<div>
-							<i className="fa fa-linkedin-square fa-2x col-md-2" aria-hidden="true"></i>
-							<p className="col-md-9">https://www.linkedin.com/in/tranbenny</p>
+							<a href="https://www.linkedin.com/in/tranbenny">
+								<i className="fa fa-linkedin-square fa-2x col-md-2" aria-hidden="true"></i>
+								<p className="col-md-9">tranbenny</p>
+							</a>
 						</div>
 						<div>
 							<i className="fa fa-envelope fa-2x col-md-2" aria-hidden="true"></i>

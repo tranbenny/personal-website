@@ -1,15 +1,14 @@
 /* GLOBAL STYLES, FONT IMPORTS
 ------------------------------------------------------------ */ 
-/*
-@font-face {
-	font-family: Abel;
-	src: url('../assets/Abel/Abel-Regular.ttf');
-}*/
-
 html {
 	padding: 0;
 	margin: 0 auto;
+	height: 100%;
 	/* font-family: */
+}
+
+body {
+	height: 100%;
 }
 
 div {
@@ -25,6 +24,7 @@ button {
 	background-color: transparent;
 	border: 1px solid white;
 	padding: 10px 30px 10px 30px;
+	margin-bottom: 10px;
 	text-transform: uppercase;
 	font-size: 20px;
 }
@@ -35,40 +35,94 @@ button:hover {
 	border: 2px solid white;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 
 /* MAIN PAGE SECTION STYLES 
 ------------------------------------------------------------ */ 
 
 .main-section {
-	color: white;
-	background-color: black;
-	height: 475px;
+	color: black;
+	background-color: white;
+	/* background-image: url("../assets/images/particle-background.png"); */
+	height: 100%;
 	width: 100%;
-	text-align: center;
+	text-align: left;
+}
+
+.main-section canvas {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .main-section div.container-fluid {
-	padding-top: 100px;
+	padding-top: 12%;
+	padding-left: 10%;
 	height: 100%;
+	width: 100%;
+	position: relative;
+	z-index: 100;
 }
 
 
 .main-section h1 {
-	font-size: 100px;
-	font-weight: lighter;
-	font-family: 'Ubuntu', sans-serif;
+	font-size: 3rem;
+	font-weight: thin;
 }
 
 .main-section p.lead {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Lato', sans-serif;
+	width: 55%;
 }
+
+.icon-label {
+	display: flex;
+	height: auto;
+}
+
+.icon-label i {
+	margin-right: 10px;
+}
+
+.icon-label p {
+	padding-top: 0.4%; 
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+.blue {
+	color: #226CE0;
+}
+
+/* ICON LABEL HOVER ANIMATIONS
+------------------------------------------------------------ */
+.icon-label:hover {
+	cursor: pointer;
+	color: #226CE0;
+}
+
+.icon-label:hover > p {
+	text-decoration: underline;
+	color: #226CE0; 
+}
+
 
 
 /* MAIN PAGE FOOTER STYLES 
 ------------------------------------------------------------ */ 
 
-footer {
-	padding-top: 30px;
+footer {     
+	font-family: 'Abel', sans-serif;
+	padding-top: 3%;
 	text-align: center;
 }
 
@@ -81,8 +135,7 @@ footer p {
 	margin-left: 5px;
 }
 
-.contact-icons * {
-	height: 100%;
+footer div {
 	margin-bottom: 10px;
 }
 
@@ -91,15 +144,19 @@ footer p {
 	opacity: 0.5;
 }
 
-.contact-icons i {
-	padding-right: 0px;
+.contact-icons * {
+	color: black;
+}
+
+.contact-icons div:nth-child(1) {
+	margin-left: auto;
+}
+
+.contact-icons div:nth-child(4) {
+	margin-right: auto;
 }
 
 .contact-icons p {
-	font-family: 'Abel', sans-serif;
-	height: 28px;
-	margin-left: 0px;
-	padding-top: 5px;
 	text-align: left;
 }
 
