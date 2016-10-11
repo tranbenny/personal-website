@@ -20,7 +20,7 @@ class NameHeader extends React.Component {
 						A full-stack software developer with experience in web development and scientific computing. 
 					</p>
 					<p className="lead">I'm currently looking for full-time opportunities as a software engineer</p>
-					<p className="lead">View my resume <a href="/assets/resume.pdf" className="blue">here</a>!</p>
+					<p className="lead">View my resume <a href="/assets/Resume.pdf" className="blue">here</a>!</p>
 					<p className="lead">Contact me at tran.benny123@gmail.com or reach out at:</p>
 					<div className="icon-label">
 						<i className="fa fa-github fa-2x" aria-hidden="true"></i>
