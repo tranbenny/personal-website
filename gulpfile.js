@@ -48,6 +48,10 @@ gulp.task('html-templates', function() {
 		.pipe(gulp.dest('dist/'));
 });
 
+gulp.task('watch-assets', function() {
+	gulp.watch("src/assets/**/*", ['copy-assets']);
+});
+
 gulp.task('copy-assets', function() {
 	return gulp.src('./src/assets/**/*')
 		.pipe(gulp.dest('dist/assets'));

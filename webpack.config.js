@@ -34,6 +34,11 @@ var config = {
 	module: {
 		loaders: [
 			{
+				test: /\.json$/,
+				exclude: [/node_modules/],
+				loader: 'json-loader'
+			},
+			{
 				test: /\.js$/,
 				exclude: [/node_modules/],
 				loader: 'babel-loader',
@@ -45,6 +50,10 @@ var config = {
 				test: /\.css$/,
 				exclude: [/node_modules/],
 				loader: 'style-loader!css-loader'
+			},
+			{
+				test: /\.png$/,
+				loader: "url-loader?limit=10000&minetype=image/png"
 			}
 		]
 	},

@@ -20,3 +20,5 @@ TODO:
 - set up routes with react-router
 - incorporate bootstrap material design 
 - create react animations 
+
+- NEED TO MAKE HOME PAGE RESPONSIVE 
